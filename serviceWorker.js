@@ -4,15 +4,15 @@ const assets = [
   "/index.html",
   "/css/style.css",
   "/js/app.js",
-  "/images/coffee1.jpg",
-  "/images/coffee2.jpg",
-  "/images/coffee3.jpg",
-  "/images/coffee4.jpg",
-  "/images/coffee5.jpg",
-  "/images/coffee6.jpg",
-  "/images/coffee7.jpg",
-  "/images/coffee8.jpg",
-  "/images/coffee9.jpg"
+  "/images/coffee1.JPG",
+  "/images/coffee2.JPG",
+  "/images/coffee3.JPG",
+  "/images/coffee4.JPG",
+  "/images/coffee5.JPG",
+  "/images/coffee6.JPG",
+  "/images/coffee7.JPG",
+  "/images/coffee8.JPG",
+  "/images/coffee9.JPG"
 ];
 
 self.addEventListener("install", installEvent => {
