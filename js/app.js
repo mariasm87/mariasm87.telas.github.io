@@ -2,215 +2,215 @@ const container = document.querySelector(".container");
 const coffees = [
   {
     name: "Punto blanco con topos negro",
-    image: "images/tela1.jpg"
+    image: "images/tela1.JPG"
   },
   {
     name: "Piqué blanco",
-    image: "images/tela2.jpg"
+    image: "images/tela2.JPG"
   },
   {
     name: "Popelin blanco con rayas",
-    image: "images/tela3.jpg"
+    image: "images/tela3.JPG"
   },
   {
     name: "Popelin rosa",
-    image: "images/tela4.jpg"
+    image: "images/tela4.JPG"
   },
   {
     name: " Punto chanel multicolor malva",
-    image: "images/tela5.jpg"
+    image: "images/tela5.JPG"
   },
   {
     name: " Crepe japonesa blanco",
-    image: "images/tela6.jpg"
+    image: "images/tela6.JPG"
   },
   {
     name: "Crepe naranja",
-    image: "images/tela7.jpg"
+    image: "images/tela7.JPG"
   },
   {
     name: "Crepe satinado japones",
-    image: "images/tela8.jpg"
+    image: "images/tela8.JPG"
   },
   {
     name: "Entretela blanca",
-    image: "images/tela9.jpg"
+    image: "images/tela9.JPG"
   },
   {
     name: "Entretela blanca",
-    image: "images/tela10.jpg"
+    image: "images/tela10.JPG"
   },
   {
     name: "Entretela negra",
-    image: "images/tela11.jpg"
+    image: "images/tela11.JPG"
   },
   {
     name: "Entretela negra abrigo",
-    image: "images/tela12.jpg"
+    image: "images/tela12.JPG"
   },
   {
     name: "Lana escocesa cuadro escocés",
-    image: "images/tela13.jpg"
+    image: "images/tela13.JPG"
   },
   {
     name: "Cuadro escoces rojo",
-    image: "images/tela14.jpg"
+    image: "images/tela14.JPG"
   },
   {
     name: "Forro bañador beige",
-    image: "images/tela15.jpg"
+    image: "images/tela15.JPG"
   },
   {
     name: "Forro bañador blanco",
-    image: "images/tela16.jpg"
+    image: "images/tela16.JPG"
   },
   {
     name: "Forro bañador negro",
-    image: "images/tela17.jpg"
+    image: "images/tela17.JPG"
   },
   {
     name: "Forro bañador negro",
-    image: "images/tela18.jpg"
+    image: "images/tela18.JPG"
   },
   {
     name: "Forro bañador blanco",
-    image: "images/tela19.jpg"
+    image: "images/tela19.JPG"
   },
   {
     name: "Forro blanco",
-    image: "images/tela20.jpg"
+    image: "images/tela20.JPG"
   },
   {
     name: "Viyela flores",
-    image: "images/tela21.jpg"
+    image: "images/tela21.JPG"
   },
   {
     name: "Forro granate",
-    image: "images/tela22.jpg"
+    image: "images/tela22.JPG"
   },
   {
     name: "Forro negro",
-    image: "images/tela23.jpg"
+    image: "images/tela23.JPG"
   },
   {
     name: "Gasa rosa japonesa",
-    image: "images/tela24.jpg"
+    image: "images/tela24.JPG"
   },
   {
     name: "Lana gruesa verde marino",
-    image: "images/tela25.jpg"
+    image: "images/tela25.JPG"
   },
   {
     name: "Lycra bañador negro",
-    image: "images/tela26.jpg"
+    image: "images/tela26.JPG"
   },
   {
     name: "Lycra bañador negro",
-    image: "images/tela27.jpg"
+    image: "images/tela27.JPG"
   },
   {
     name: "Lycra bañador turquesa",
-    image: "images/tela28.jpg"
+    image: "images/tela28.JPG"
   },
   {
     name: "Punto pata de gallo",
-    image: "images/tela29.jpg"
+    image: "images/tela29.JPG"
   },
   {
     name: "Plumetti negro",
-    image: "images/tela30.jpg"
+    image: "images/tela30.JPG"
   },
   {
     name: "Polipiel elástico negro",
-    image: "images/tela31.jpg"
+    image: "images/tela31.JPG"
   },
   {
     name: "Glasilla",
-    image: "images/tela32.jpg"
+    image: "images/tela32.JPG"
   },
   {
     name: "Punto abrigo gris perla",
-    image: "images/tela33.jpg"
+    image: "images/tela33.JPG"
   },
   {
     name: "Punto invierno negro",
-    image: "images/tela34.jpg"
+    image: "images/tela34.JPG"
   },
   {
     name: "Punto invierno negro",
-    image: "images/tela35.jpg"
+    image: "images/tela35.JPG"
   },
   {
     name: "Punto jaspeado negro y amarillo",
-    image: "images/tela36.jpg"
+    image: "images/tela36.JPG"
   },
   {
     name: "Punto negro",
-    image: "images/tela37.jpg"
+    image: "images/tela37.JPG"
   },
   {
     name: "Satinado japonés",
-    image: "images/tela38.jpg"
+    image: "images/tela38.JPG"
   },
   {
     name: "Satinado rojo",
-    image: "images/tela39.jpg"
+    image: "images/tela39.JPG"
   },
   {
     name: "Stretch negro",
-    image: "images/tela40.jpg"
+    image: "images/tela40.JPG"
   },
   {
     name: "Sueter minky blanco",
-    image: "images/tela41.jpg"
+    image: "images/tela41.JPG"
   },
   {
     name: "Tela arrugada blanca abrigo fino",
-    image: "images/tela42.jpg"
+    image: "images/tela42.JPG"
   },
   {
     name: "Tela camisa azul",
-    image: "images/tela43.jpg"
+    image: "images/tela43.JPG"
   },
   {
     name: "Georgette topos blanco y rojo bebe",
-    image: "images/tela44.jpg"
+    image: "images/tela44.JPG"
   },
   {
     name: "Popelín topos blanco y negro",
-    image: "images/tela45.jpg"
+    image: "images/tela45.JPG"
   },
   {
     name: "Georgette topos rojo y blanco",
-    image: "images/tela46.jpg"
+    image: "images/tela46.JPG"
   },
   {
     name: "Transparencia rayas azules",
-    image: "images/tela47.jpg"
+    image: "images/tela47.JPG"
   },
   {
     name: "Tul marrón",
-    image: "images/tela48.jpg"
+    image: "images/tela48.JPG"
   },
   {
     name: "Tul beige",
-    image: "images/tela49.jpg"
+    image: "images/tela49.JPG"
   },
   {
     name: "Vaquero burdeos",
-    image: "images/tela50.jpg"
+    image: "images/tela50.JPG"
   },
   {
     name: "Vaquero flores berenjena",
-    image: "images/tela51.jpg"
+    image: "images/tela51.JPG"
   },
   {
     name: "Vaquero flores burdeos",
-    image: "images/tela52.jpg"
+    image: "images/tela52.JPG"
   },
   {
     name: "Pique zigzag blanco y turquesa",
-    image: "images/tela53.jpg"
+    image: "images/tela53.JPG"
   }
 ];
 const showCoffees = () => {
